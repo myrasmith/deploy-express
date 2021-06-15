@@ -1,0 +1,30 @@
+{
+  "name": "deploy-express",
+  "version": "1.0.0",
+  "description": "example deployment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myrasmith/deploy-express.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "budgeting"
+  ],
+  "author": "Myra Fowlkes Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myrasmith/deploy-express/issues"
+  },
+  "homepage": "https://github.com/myrasmith/deploy-express#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
