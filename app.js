@@ -11,7 +11,7 @@ app.use(cors());
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Welcome to budgeting app!");
+  res.send("Welcome to Myra's budgeting app!");
 });
 
 // Export app
